@@ -1,7 +1,7 @@
 {
   "system": {
     "version": "5.0",
-    "updated_at": "2026-11-01T17:12:48.604Z",
+    "updated_at": "2026-11-01T17:14:07.101Z",
     "broadcast_message": "FlemingoV5 Active"
   },
   "global_controls": {
@@ -18,17 +18,17 @@
     "emergency_halt": false
   },
   "accounts": {
-    "123456": {
-      "name": "demo",
+    "279729413": {
+      "name": "Zero_demo_liquidity",
       "active": true,
       "trading_enabled": true,
-      "expiry": "09-12-2026",
-      "account_type": "CENT",
-      "profile": "CENT_100K",
+      "expiry": "01-12-2027",
+      "account_type": "USD_STANDARD",
+      "profile": "USD_ULTRA_SAFE",
       "direction_override": "USE_GLOBAL",
       "base_lot": 0.01,
       "news_filter_override": "USE_GLOBAL",
-      "note": "demo"
+      "note": "Zero_demo_liquidity"
     }
   }
 }
