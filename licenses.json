@@ -1,8 +1,8 @@
 {
   "system": {
-    "version": "5.0",
-    "updated_at": "2026-11-02T07:14:01.573Z",
-    "broadcast_message": "FlemingoV5 Active"
+    "version": "5.1",
+    "updated_at": "2026-11-02T09:57:32.245Z",
+    "broadcast_message": "FlemingoV5 Institutional Grid Engine Active"
   },
   "global_controls": {
     "master_trading_enabled": true,
@@ -12,23 +12,40 @@
       "pre_news_minutes": 15,
       "post_news_minutes": 15,
       "high_impact_usd_only": true,
-      "custom_blackout_windows": []
+      "custom_blackout_windows": [
+        {
+          "name": "US Non-Farm Payrolls (NFP)",
+          "currency": "USD",
+          "impact": "High",
+          "event_time_ist": "2026-11-06 19:00",
+          "start_utc": "2026-11-06 13:15",
+          "end_utc": "2026-11-06 14:00"
+        },
+        {
+          "name": "US CPI Inflation Rate m/m",
+          "currency": "USD",
+          "impact": "High",
+          "event_time_ist": "2026-11-12 18:30",
+          "start_utc": "2026-11-12 13:15",
+          "end_utc": "2026-11-12 14:00"
+        }
+      ]
     },
-    "default_profile": "CENT_1M_PROVEN",
+    "default_profile": "CENT_100K",
     "emergency_halt": false
   },
   "accounts": {
     "279729413": {
-      "name": "Zero_demo_liquidity",
+      "name": "zero_demo-liquidity",
       "active": true,
       "trading_enabled": true,
-      "expiry": "01-12-2027",
+      "expiry": "31-12-2030",
       "account_type": "CENT",
       "profile": "CENT_1M_V3",
       "direction_override": "USE_GLOBAL",
       "base_lot": 0.01,
       "news_filter_override": "USE_GLOBAL",
-      "note": "Zero_demo_liquidity"
+      "note": "zero_demo-liquidity"
     }
   }
 }
