@@ -1,7 +1,7 @@
 {
   "system": {
     "version": "5.1",
-    "updated_at": "2026-11-02T09:57:32.245Z",
+    "updated_at": "2026-11-02T21:44:15.638Z",
     "broadcast_message": "FlemingoV5 Institutional Grid Engine Active"
   },
   "global_controls": {
@@ -22,16 +22,15 @@
           "end_utc": "2026-11-06 14:00"
         },
         {
-          "name": "US CPI Inflation Rate m/m",
+          "name": "Core CPI m/m",
           "currency": "USD",
           "impact": "High",
-          "event_time_ist": "2026-11-12 18:30",
-          "start_utc": "2026-11-12 13:15",
-          "end_utc": "2026-11-12 14:00"
+          "event_time_ist": "2026-11-10 19:00",
+          "start_utc": "2026-11-10 13:15",
+          "end_utc": "2026-11-10 13:45"
         }
       ]
     },
-    "default_profile": "CENT_100K",
     "emergency_halt": false
   },
   "accounts": {
@@ -40,7 +39,7 @@
       "active": true,
       "trading_enabled": true,
       "expiry": "31-12-2030",
-      "account_type": "CENT",
+      "account_type": "USD",
       "profile": "CENT_1M_V3",
       "direction_override": "USE_GLOBAL",
       "base_lot": 0.01,
