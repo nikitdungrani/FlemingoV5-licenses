@@ -1,7 +1,7 @@
 {
   "system": {
     "version": "5.1",
-    "updated_at": "2026-11-03T18:13:21.656Z",
+    "updated_at": "2026-11-03T19:55:11.956Z",
     "broadcast_message": "FlemingoV5 Institutional Grid Engine Active"
   },
   "global_controls": {
@@ -20,7 +20,7 @@
     "279729413": {
       "name": "Nikit_zero_liquidity",
       "active": true,
-      "trading_enabled": false,
+      "trading_enabled": true,
       "expiry": "31-12-2026",
       "account_type": "USD_STANDARD",
       "profile": "CENT_1M_V3",
