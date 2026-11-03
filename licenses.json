@@ -1,7 +1,7 @@
 {
   "system": {
     "version": "5.1",
-    "updated_at": "2026-11-03T17:24:25.792Z",
+    "updated_at": "2026-11-03T17:55:18.242Z",
     "broadcast_message": "FlemingoV5 Institutional Grid Engine Active"
   },
   "global_controls": {
@@ -12,24 +12,7 @@
       "pre_news_minutes": 15,
       "post_news_minutes": 15,
       "high_impact_usd_only": true,
-      "custom_blackout_windows": [
-        {
-          "name": "US Non-Farm Payrolls (NFP)",
-          "currency": "USD",
-          "impact": "High",
-          "event_time_ist": "2026-11-06 19:00",
-          "start_utc": "2026-11-06 13:15",
-          "end_utc": "2026-11-06 14:00"
-        },
-        {
-          "name": "Core CPI m/m",
-          "currency": "USD",
-          "impact": "High",
-          "event_time_ist": "2026-11-10 19:00",
-          "start_utc": "2026-11-10 13:15",
-          "end_utc": "2026-11-10 13:45"
-        }
-      ]
+      "custom_blackout_windows": []
     },
     "emergency_halt": false
   },
