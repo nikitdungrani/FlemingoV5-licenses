@@ -1,7 +1,7 @@
 {
   "system": {
     "version": "5.1",
-    "updated_at": "2026-11-03T13:04:06.647Z",
+    "updated_at": "2026-11-03T13:17:37.891Z",
     "broadcast_message": "FlemingoV5 Institutional Grid Engine Active"
   },
   "global_controls": {
@@ -45,7 +45,7 @@
       "base_lot": 0.01,
       "news_filter_override": "USE_GLOBAL",
       "note": "zero_demo-liquidity",
-      "rebalance_action": "SETTLE"
+      "rebalance_action": "NORMAL"
     }
   }
 }
