@@ -1,7 +1,7 @@
 {
   "system": {
     "version": "5.1",
-    "updated_at": "2026-11-06T19:52:27.469Z",
+    "updated_at": "2026-11-09T23:46:25.213Z",
     "broadcast_message": "FlemingoV5 Institutional Grid Engine Active"
   },
   "global_controls": {
@@ -39,7 +39,8 @@
       "direction_override": "USE_GLOBAL",
       "base_lot": 0.01,
       "news_filter_override": "USE_GLOBAL",
-      "note": "Exness Technologies Ltd Client"
+      "note": "Exness Technologies Ltd Client",
+      "rebalance_action": "SETTLE"
     }
   }
 }
