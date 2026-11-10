@@ -1,7 +1,7 @@
 {
   "system": {
     "version": "5.1",
-    "updated_at": "2026-11-10T09:46:49.749Z",
+    "updated_at": "2026-11-10T09:52:55.539Z",
     "broadcast_message": "FlemingoV5 Institutional Grid Engine Active"
   },
   "global_controls": {
@@ -23,7 +23,7 @@
       "trading_enabled": true,
       "expiry": "31-12-2026",
       "account_type": "USD_STANDARD",
-      "profile": "CENT_1M_PROVEN",
+      "profile": "CENT_1M_PROVEN_V2",
       "direction_override": "USE_GLOBAL",
       "base_lot": 0.01,
       "news_filter_override": "USE_GLOBAL",
