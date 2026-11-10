@@ -1,7 +1,7 @@
 {
   "system": {
     "version": "5.1",
-    "updated_at": "2026-11-09T23:46:25.213Z",
+    "updated_at": "2026-11-10T00:00:33.094Z",
     "broadcast_message": "FlemingoV5 Institutional Grid Engine Active"
   },
   "global_controls": {
@@ -28,19 +28,6 @@
       "base_lot": 0.01,
       "news_filter_override": "USE_GLOBAL",
       "note": "Nikit_zero_liquidity"
-    },
-    "434495334": {
-      "name": "Exness Technologies Ltd Client",
-      "active": true,
-      "trading_enabled": true,
-      "expiry": "31-12-2026",
-      "account_type": "USD_STANDARD",
-      "profile": "CENT_1M_V3",
-      "direction_override": "USE_GLOBAL",
-      "base_lot": 0.01,
-      "news_filter_override": "USE_GLOBAL",
-      "note": "Exness Technologies Ltd Client",
-      "rebalance_action": "SETTLE"
     }
   }
 }
