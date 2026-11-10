@@ -1,7 +1,7 @@
 {
   "system": {
     "version": "5.1",
-    "updated_at": "2026-11-10T09:29:52.828Z",
+    "updated_at": "2026-11-10T09:30:31.887Z",
     "broadcast_message": "FlemingoV5 Institutional Grid Engine Active"
   },
   "global_controls": {
@@ -28,18 +28,6 @@
       "base_lot": 0.01,
       "news_filter_override": "USE_GLOBAL",
       "note": "Nikit_zero_liquidity"
-    },
-    "434495334": {
-      "name": "DEmo-2",
-      "active": false,
-      "trading_enabled": false,
-      "expiry": "31-12-2026",
-      "account_type": "USD_STANDARD",
-      "profile": "CENT_1M_PROVEN_V2",
-      "direction_override": "USE_GLOBAL",
-      "base_lot": 0.01,
-      "news_filter_override": "USE_GLOBAL",
-      "note": "DEmo-2"
     }
   }
 }
